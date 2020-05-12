@@ -1,0 +1,127 @@
+[문항1]  다음 코드의 실행 결과가 12.345 되기 위해서 빈 칸에 알맞는 것은 무엇인가요?  (배점:10)
+double a=12.3452;
+System.out.printf("[            ]", a);
+
+1) %f
+2) %5.2f
+3) %.3f
+4) %.3d
+정답 : 3
+
+
+[문항2]  다음 코드의 실행 결과는 무엇인가요? (배점:10) 
+int a=10, b=10;
+boolean c;
+c=++a>10 || b++>10;
+System.out.println(a+","+b+","+c);
+1) 11,10,true
+2) 11,11,true
+3) 11,10,false
+4) 11,11,false
+정답 : 
+
+	
+[문항3]  다음 코드의 실행 결과는 무엇인가요?  (배점:10)
+int x = 0;
+int y = 10;
+do {
+   y--;
+   ++x;
+}while(x < 5);
+System.out.print(x + ", " + y);
+
+1) 0, 10
+2) 4, 5
+3) 5, 6
+4) 5, 5
+정답 : 4
+
+	
+[문항4]  다음 코드의 실행 결과는 무엇인가요? (배점:10)
+char a, b, c;
+
+a='A';
+a+=2;
+
+b='A';
+b++;
+
+c='A';
+c=c+1;
+System.out.println(a+", "+b+", "+c);
+
+1) 컴파일 오류
+2) C, B, B
+3) 67, 66, 66
+4) C, B, 66
+정답 : 
+
+
+[문항5]  대문자를 소문자로 변환하는 코드입니다. 빈 칸에 적당한 것은 무엇인가요? (배점:10)
+char upperCase = 'A';
+char lowerCase = [가)        ](upperCase + [나)        ] );
+1) (char), 67
+2) char, 67
+3) (char), 32
+4) char, 48
+정답 : 3
+
+
+[문항6]  다음 코드의 실행 결과는 무엇인가요? (배점:10) 
+float a=5.2f;
+char b='A';
+b+=a;
+System.out.println(b);
+
+1) 70.2
+2) 컴파일 오류
+3) A
+4) F
+정답 : 
+
+
+[문항7]  다음중 자바의 기본 자료 형(primitive Type)을 올바르게 나열한것은 무엇인가요 ? (배점:10)
+1) Boolean, Byte, Character, Short, Integer, Long, Float, Double
+2) boolean, byte, char, short, int, long, float, double, String
+3) boolean, byte, char, short, int, long, float, double
+4) Class, byte, char, short, int, long, float, double
+정답 : 3
+
+
+[문항8]  다음중 올바른 것은 무엇인가요? (배점:10)
+1) char #gender='M';
+2) int $age=24;
+3) double ~temp = 37.5;
+7) float a=0.0;
+정답 : 
+
+
+[문항9]  1~100까지의 홀수의 합을 구하는 프로그램입니다. 빈 칸에 적당한 것은 무엇인가요? (배점:10) 
+int s, n;
+s=0;
+[         가)       ];
+while([    나)               ]) {
+    s+=n;
+    [       다)            ];
+}
+System.out.println("결과 : " + s);
+
+1) 가) n=1    나) n<=100    다) n+2
+2) 가) n=1    나) n<=100    다) n+=2
+3) 가) n=-1    나) n<=100    다) n+=3
+4) 가) n=1    나) n>=100    다) n+=2
+정답 : 2
+
+
+[문항10]   다음 코드의 실행 결과는 무엇인가요? (배점:10)
+int a=0, s=0;
+while(a++ <= 9) {
+    s+=a;
+}
+System.out.println("a:"+a+", s:"+s);
+
+1) a:11, s:55
+2) a:10, s:55
+3) a:11, s:45
+4) a:10, s:45
+정답 : 
